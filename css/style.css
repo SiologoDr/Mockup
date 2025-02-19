@@ -1,30 +1,21 @@
-/* --------------------------
-   RESET BÁSICO
---------------------------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif; /* Ajusta según la fuente elegida */
+    font-family: 'Poppins', sans-serif; 
   }
   
-  /* --------------------------
-     ESTILOS GLOBALES
-  --------------------------- */
   body {
     color: #333;
     background-color: #fff;
   }
   
-  /* --------------------------
-     HEADER
-  --------------------------- */
   header {
     background-color: #ffffff;
     padding: 20px 40px;
 
-    max-width: 1300px; /* Ajustable entre 1200px y 1400px */
-    width: 90%; /* Mantiene espacio en pantallas pequeñas */
+    max-width: 1300px; 
+    width: 90%; 
     margin: 0 auto;
   }
   
@@ -34,24 +25,23 @@
     justify-content: space-between;
   }
   
-  /* Contenedor de los links y el botón */
   .nav-container {
     display: flex;
     align-items: center;
-    gap: 55px; /* Espaciado entre los elementos */
+    gap: 55px; 
   }
   
   .logo {
     display: flex;
-    align-items: center; /* Alinea verticalmente el logo y el texto */
-    gap: 10px; /* Espacio entre la imagen y el texto */
+    align-items: center; 
+    gap: 10px;
     font-size: 1.5rem;
-    color: #131c3b; /* Color principal */
+    color: #131c3b; 
   }
 
   .logo-img {
-      width: 50px; /* Ajusta el tamaño sin que se deforme */
-      height: auto; /* Mantiene la proporción */
+      width: 50px; 
+      height: auto; 
   }
   
   .nav-links {
@@ -87,9 +77,13 @@
     color: #fff;
   }
   
-  /* --------------------------
-     HERO
-  --------------------------- */
+
+
+
+
+
+  
+
   .hero {
     flex-direction: column;
     align-items: center;
@@ -98,8 +92,8 @@
     text-align: center;
     justify-content: space-between;
     padding: 60px 40px;
-    max-width: 1300px; /* Ajustable entre 1200px y 1400px */
-    width: 90%; /* Mantiene espacio en pantallas pequeñas */
+    max-width: 1300px; 
+    width: 90%; 
     margin: 0 auto;
 
     gap: 80px;
@@ -131,8 +125,6 @@
     margin-right: 10px;
     font-size: 16px;
     transition: background-color 0.3s ease;
-
-
   }
   
   .btn-primary {
@@ -146,7 +138,6 @@
     background-color: #ffffff;
     color: #ff6c01;
   }
-  
   
   .hero-image img {
     max-width: 100%;
