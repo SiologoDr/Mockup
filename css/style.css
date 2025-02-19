@@ -1,0 +1,156 @@
+/* --------------------------
+   RESET BÁSICO
+--------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Ajusta según la fuente elegida */
+  }
+  
+  /* --------------------------
+     ESTILOS GLOBALES
+  --------------------------- */
+  body {
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* --------------------------
+     HEADER
+  --------------------------- */
+  header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+
+    max-width: 1300px; /* Ajustable entre 1200px y 1400px */
+    width: 90%; /* Mantiene espacio en pantallas pequeñas */
+    margin: 0 auto;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Contenedor de los links y el botón */
+  .nav-container {
+    display: flex;
+    align-items: center;
+    gap: 55px; /* Espaciado entre los elementos */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y el texto */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    font-size: 1.5rem;
+    color: #131c3b; /* Color principal */
+  }
+
+  .logo-img {
+      width: 50px; /* Ajusta el tamaño sin que se deforme */
+      height: auto; /* Mantiene la proporción */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    font-size: 15px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #007bff;
+  }
+  
+  .btn-cta {
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #ff6c01;
+    border: 2px solid #ff6c01;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-cta:hover {
+    background-color: #ff6c01;
+    color: #fff;
+  }
+  
+  /* --------------------------
+     HERO
+  --------------------------- */
+  .hero {
+    flex-direction: column;
+    align-items: center;
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    max-width: 1300px; /* Ajustable entre 1200px y 1400px */
+    width: 90%; /* Mantiene espacio en pantallas pequeñas */
+    margin: 0 auto;
+
+    gap: 80px;
+  }
+  
+  .hero-content {
+    max-width: 100%;
+    padding-top: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+    color: #292e70;
+  }
+  
+  .hero-content p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 2;
+    margin-top: -15px;
+  }
+  
+  .hero-cta .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+
+
+  }
+  
+  .btn-primary {
+    background-color: #ff6c01;
+    color: #fff;
+    border: 2px solid #ff6c01;
+    margin-top: 5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ffffff;
+    color: #ff6c01;
+  }
+  
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
