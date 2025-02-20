@@ -143,5 +143,54 @@
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    opacity: 0.9;
+    transition: transform 0.2s ease, opacity 0.3s ease;
+  }
+
+  .hero-image img:hover{
+    transform: scale(1.005);
+    opacity: 1;
   }
   
+
+
+
+
+  .trusted-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px; 
+    border-bottom: 1px solid #e0e0e0; 
+  }
+
+  .trusted-section p {
+      font-size: 1.1rem;
+      color: #333;
+  }
+
+  .trusted-section .highlight {
+      color: #007bff;
+      font-weight: bold;
+  }
+
+  .trusted-logos {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 50px;
+      margin-top: 15px;
+  }
+
+  .trusted-logos img {
+      max-height: 100px; 
+      width: auto;
+      opacity: 0.5;
+      transition: opacity 0.3s ease, transform 0.2s ease;
+  }
+
+  .trusted-logos img:hover {
+      opacity: 1;
+      transform: scale(1.1);
+  }
