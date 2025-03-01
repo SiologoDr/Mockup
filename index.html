@@ -212,8 +212,89 @@
     </div>
   </section>
 
+  <section class="news-section">
+    <h2 class="news-title">Últimas Noticias</h2>
+    <p class="news-description">
+        Mantente informado con nuestras actualizaciones más recientes sobre <br>
+        tecnología innovación y tendencias del mercado.
+    </p>
 
-  <script src="js/script.js"></script>
+    <div class="news-container">
+        <!-- Tarjeta 1 -->
+        <div class="news-card">
+            <img src="img/carta1.png" alt="Noticia 1" class="news-image">
+            <div class="news-content">
+                <h3>Actualización en la Experiencia de Página de Google</h3>
+                <div class="news-meta">
+                    <img src="img/perfil2.png" alt="Usuario" class="news-icon">
+                    <span class="news-author">Cody Fisher</span>
+
+                    <img src="img/calendario.png" alt="Usuario" class="news-icon2">
+                    <span class="news-date">30/08/21</span>
+                </div>
+                <p>Este es el primer generador de texto en Internet. Utiliza un diccionario de más de 200 palabras en latín...</p>
+                <a href="#" class="news-link">Leer más <span>→</span></a>
+            </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="news-card">
+            <img src="img/carta2.png" alt="Noticia 2" class="news-image">
+            <div class="news-content">
+                <h3>Inteligencia Artificial es el Futuro del Trabajo</h3>
+                <div class="news-meta">
+                    <img src="img/perfil3.png" alt="Usuario" class="news-icon">
+                    <span class="news-author">Ana Torres</span>
+
+                    <img src="img/calendario.png" alt="Usuario" class="news-icon2">
+                    <span class="news-date">12/09/21</span>
+                </div>
+                <p>Descubre cómo la IA está transformando los procesos laborales, optimizando tareas y aumentando la productividad...</p>
+                <a href="#" class="news-link">Leer más <span>→</span></a>
+            </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="news-card">
+            <img src="img/carta3.png" alt="Noticia 3" class="news-image">
+            <div class="news-content">
+                <h3>El Auge del Trabajo Remoto en pleno año 2025</h3>
+                <div class="news-meta">
+                    <img src="img/perfil1.png" alt="Usuario" class="news-icon">
+                    <span class="news-author">Luis Méndez</span>
+
+                    <img src="img/calendario.png" alt="Usuario" class="news-icon2">
+                    <span class="news-date">05/10/21</span>
+                </div>
+                <p>El teletrabajo ha cambiado la forma en que las empresas operan. Conoce los retos y beneficios de esta nueva era digital...</p>
+                <a href="#" class="news-link">Leer más <span>→</span></a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const features = document.querySelectorAll(".feature1");
+
+        features.forEach(feature => {
+            feature.addEventListener("click", function () {
+                toggleFeature(this, features);
+            });
+        });
+    });
+
+    function toggleFeature(element, allFeatures) {
+        let isActive = element.classList.contains("active");
+
+        // Cierra todas las demás características antes de abrir una nueva
+        allFeatures.forEach(f => f.classList.remove("active"));
+
+        if (!isActive) {
+            element.classList.add("active");
+        }
+    }
+  </script>
 
 </body>
 </html>
