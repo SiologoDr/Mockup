@@ -11,7 +11,7 @@ Los lenguajes y estructuras a utilizar quedan a elección de cada diseñador.
 ## 🎨 Referencia Visual
 A continuación, se deja una imagen de referencia del mockup utilizado:
 
-![Mockup](img/mockup-daffon.png)
+[Descargar Mockup](https://www.mediafire.com/file/4qenv7bumluop8q/30f66805bddec434c910bfc674fb255e.png/file)
 
 
 ---
