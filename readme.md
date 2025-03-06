@@ -11,12 +11,56 @@ Los lenguajes y estructuras a utilizar quedan a elección de cada diseñador.
 ## 🎨 Referencia Visual
 A continuación, se deja una imagen de referencia del mockup utilizado:
 
-![Descripción de la imagen](img/mockup-daffon.png)
+![Mockup](img/mockup-daffon.png)
 
 
 ---
 
+## Avance Visual del Proyecto:
+
+### Seccion del Header y Inicio
+
+![Header](img/part1.png)
+![Inicio](img/part2.png)
+
+---
+
+### Seccion de las Funcionalidades
+
+![Funcionalidades](img/part3.png)
+
+---
+
+### Seccion Por que Elegirnos?
+
+![PorQueElegirnos1](img/part4.png)
+![PorQueElegirnos2](img/part10.png)
+
+---
+
+### Seccion de Colaboracion
+
+![Colaboracion](img/part5.png)
+
+---
+
+### Seccion de Productividad
+
+![Productividad](img/part6.png)
+
+---
+
+### Seccion de Comentario
+
+![Comentario](img/part7.png)
+
+---
+
+### Seccion de Noticias
+
+![Noticias1](img/part8.png)
+![Noticias2](img/part9.png)
+
+---
+
 Cualquier actualización o mejora del proyecto deberá alinearse con los lineamientos del diseño original.
-
-
-

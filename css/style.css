@@ -13,7 +13,6 @@
   header {
     background-color: #ffffff;
     padding: 20px 40px;
-
     max-width: 1300px; 
     width: 90%; 
     margin: 0 auto;
@@ -76,13 +75,6 @@
     background-color: #ff6c01;
     color: #fff;
   }
-  
-
-
-
-
-
-  
 
   .hero {
     flex-direction: column;
@@ -151,10 +143,6 @@
     transform: scale(1.005);
     opacity: 1;
   }
-  
-
-
-
 
   .trusted-section {
     width: 100%;
@@ -194,9 +182,6 @@
       opacity: 1;
       transform: scale(1.1);
   }
-
-
-
 
 .features-section {
     text-align: center;
@@ -269,7 +254,6 @@
     transform: scale(1.1);
 }
 
-
 .why-choose-us10{
   width: 100%;
   height: auto;
@@ -313,7 +297,6 @@
   display: flex;
   margin-bottom: 40px;
 }
-
 
 .features1 {
   width: 35%;
@@ -486,7 +469,6 @@
   transform: scale(1.01);
 }
 
-
 .productivity-section30 {
   width: 100%;
   height: auto;
@@ -498,13 +480,9 @@
   max-width: 1300px; 
   width: 90%; 
   margin: 0 auto;
-
   display: flex;
-  
   justify-content: center;
   align-items: center;
-
-
   background-color: #20285a;
   gap: 50px;
   padding-top: 120px;
@@ -565,7 +543,6 @@
   opacity: 1;
   transform: scale(1.01);
 }
-
 
 .testimonial {
   padding: 100px 40px;
@@ -677,7 +654,6 @@
   opacity: 1;
   transform: scale(1.01);
 }
-
 
 .news-section {
   text-align: center;
