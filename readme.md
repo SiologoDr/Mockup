@@ -16,12 +16,12 @@ A continuación, se deja una imagen de referencia del mockup utilizado:
 
 ---
 
-## Avance Visual del Proyecto:
+## 🎨 Avance Visual del Proyecto:
 
 ### Seccion del Header y Inicio
 
 ![Header](img/part1.png)
-![Inicio](img/part2.png)
+![Inicio](img/part11.png)
 
 ---
 
