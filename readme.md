@@ -16,50 +16,62 @@ A continuación, se deja una imagen de referencia del mockup utilizado:
 
 ---
 
-## 🎨 Avance Visual del Proyecto:
+## ☕ Avance Visual del Proyecto:
 
-### Seccion del Header y Inicio
+### Seccion del Header y Inicio 🏠...
 
 ![Header](img/part1.png)
 ![Inicio](img/part11.png)
 
 ---
 
-### Seccion de las Funcionalidades
+### Seccion de las Funcionalidades 📖...
 
 ![Funcionalidades](img/part3.png)
 
 ---
 
-### Seccion Por que Elegirnos?
+### Seccion Por que Elegirnos? 📚...
 
+Imagen 1:
 ![PorQueElegirnos1](img/part4.png)
+
+Imagen 2:
 ![PorQueElegirnos2](img/part10.png)
 
 ---
 
-### Seccion de Colaboracion
+### Seccion de Colaboracion 📊...
 
 ![Colaboracion](img/part5.png)
 
 ---
 
-### Seccion de Productividad
+### Seccion de Productividad 📈...
 
 ![Productividad](img/part6.png)
 
 ---
 
-### Seccion de Comentario
+### Seccion de Comentario 💬...
 
 ![Comentario](img/part7.png)
 
 ---
 
-### Seccion de Noticias
+### Seccion de Noticias 📢...
 
+Imagen 1:
 ![Noticias1](img/part8.png)
+
+Imagen 2:
 ![Noticias2](img/part9.png)
+
+---
+
+### Seccion de Footer 📑...
+
+![Footer](img/part12.png)
 
 ---
 
