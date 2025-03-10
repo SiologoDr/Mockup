@@ -7,25 +7,26 @@
   <link rel="icon" type="image/png" href="img/logo.png">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 </head>
 <body>
   <header>
     <nav>
-      <div class="logo">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="300">
         <img src="img/logo.png" alt="Logo" class="logo-img">
         Daffon
       </div>
       <div class="nav-container">
         <ul class="nav-links">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Equipos</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Inicio</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#">Nosotros</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700"><a href="#">Equipos</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800"><a href="#">Blog</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900"><a href="#">Contacto</a></li>
         </ul>
-        <a href="#" class="btn-cta">Descarga ahora</a>
+        <a href="#" class="btn-cta" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="600">Descarga ahora</a>
       </div>
     </nav>
   </header>
@@ -314,6 +315,10 @@
             element.classList.add("active");
         }
     }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </body>
 </html>
