@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daffon</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+        <img src="img/logo.png" alt="Logo" class="logo-img">
+        Daffon
+      </div>
+      <div class="nav-container">
+        <ul class="nav-links">
+          <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="100"><a href="#">Home</a></li>
+          <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="150"><a href="#">About Us</a></li>
+          <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"><a href="#">Teams</a></li>
+          <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="250"><a href="#">Blog</a></li>
+          <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"><a href="#">Contact</a></li>
+        </ul>
+        <div data-aos="fade-left" data-aos-duration="600" data-aos-delay="400">
+          <a href="#" class="btn-cta">Download Now</a>
+          <a href="index.html" class="btn-ctaa">Translation to SPANISH</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <h1 data-aos="fade-right" data-aos-duration="600" data-aos-delay="600">Connect wherever you want</h1>
+      <p data-aos="fade-left" data-aos-duration="600" data-aos-delay="700">
+        Make fast, high-quality video calls from any device, no matter where you are. <br>
+        Connect seamlessly without interruptions anytime.
+      </p>
+      <div class="hero-cta" data-aos="zoom-out" data-aos-duration="600" data-aos-delay="800">
+        <a href="#" class="btn-primary">Download now</a>
+      </div>
+    </div>
+    <div class="hero-image" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="900">
+      <img src="img/conferencia.png" alt="Ejemplo videoconferencia">
+    </div>
+    <div class="trusted-section">
+      <p data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">Trusted by more than <span class="highlight">50,000</span> users worldwide</p>
+      <div class="trusted-logos" data-aos="zoom-out" data-aos-duration="600" data-aos-delay="200">
+          <img src="img/parner4.png" alt="Senati">
+          <img src="img/parner3.png" alt="ShipBob">
+          <img src="img/parner1.png" alt="ProfitWell">
+          <img src="img/parner2.png" alt="Demio">
+          <img src="img/parner5.png" alt="PayPal">
+      </div>
+    </div>
+  </section>
+  <section class="features-section">
+    <h2 data-aos="fade-down" data-aos-duration="600" data-aos-delay="100">Discover <strong>All the Features</strong></h2>
+    <p data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">Connect and collaborate efficiently with our tools designed to enhance <br>
+        your experience and meet your needs at all times.
+    </p>
+    <div class="features-container" data-aos="zoom-out" data-aos-duration="600" data-aos-delay="300">
+      <div class="feature">
+        <img src="img/servicio3.png" alt="A">
+        <h3>HD Calls</h3>
+        <p>Communicate without interruptions with crystal-clear audio and video, no matter where you are.</p>
+      </div>
+      <div class="feature">
+        <img src="img/servicio2.png" alt="B">
+        <h3>Screen Sharing</h3>
+        <p>Share your screen in real-time for presentations, meetings, or remote assistance with ease.</p>
+      </div>
+      <div class="feature">
+        <img src="img/servicio1.png" alt="C">
+        <h3>Smart Messaging</h3>
+        <p>Send instant messages, react with emojis, and keep all your conversations organized in one place.</p>
+      </div>
+    </div>
+  </section>
+  <section class="why-choose-us10">
+    <section class="why-choose-us1">
+      <h2 data-aos="fade-down" data-aos-duration="600" data-aos-delay="100">Why Choose Us?</h2>
+      <p data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">With our advanced tools, we guarantee smooth, secure, and effective communication <br>
+        for all our users, no matter where they are.
+      </p>
+      <div class="content1">
+        <div class="features2">
+          <div class="image-container1" data-aos="zoom-out-right" data-aos-duration="600" data-aos-delay="300">
+            <img src="img/fotito.png" alt="Video call in progress">
+          </div>
+        </div>
+        <div class="features1">
+          <div class="feature1" onclick="toggleFeature(this)" data-aos="fade-left" data-aos-duration="600" data-aos-delay="400">
+            <div class="titulo">
+              <div class="icon1" style="background-color: #14b8a6;">
+                <img src="img/video-camara-alt.png" alt="Video Meetings">
+              </div>
+              <h3>Video Meetings</h3>
+            </div>
+            <div class="parrafo">
+              <p class="hidden">Make high-quality video calls with guaranteed stability and security.</p>
+            </div>
+          </div>
+          <div class="feature1" onclick="toggleFeature(this)" data-aos="fade-left" data-aos-duration="600" data-aos-delay="450">
+            <div class="titulo">
+              <div class="icon1" style="background-color: #a855f7;">
+                <img src="img/volumen.png" alt="Enhanced Audio">
+              </div>
+              <h3>Enhanced Audio</h3>
+            </div>
+            <div class="parrafo">
+              <p class="hidden">Enjoy crystal-clear sound with no interruptions on all your calls.</p>
+            </div>
+          </div>
+          <div class="feature1" onclick="toggleFeature(this)" data-aos="fade-left" data-aos-duration="600" data-aos-delay="500">
+            <div class="titulo">
+              <div class="icon1" style="background-color: #2563eb;">
+                <img src="img/mundo.png" alt="Live Subtitles">
+              </div>
+              <h3>Live Subtitles</h3>
+            </div>
+            <div class="parrafo">
+              <p class="hidden">Follow every conversation with real-time automatic transcription.</p>
+            </div>
+          </div>
+          <div class="feature1" onclick="toggleFeature(this)" data-aos="fade-left" data-aos-duration="600" data-aos-delay="550">
+            <div class="titulo">
+              <div class="icon1" style="background-color: #f97316;">
+                <img src="img/microfono.png" alt="Call Recording">
+              </div>
+              <h3>Call Recording</h3>
+            </div>
+            <div class="parrafo">
+              <p class="hidden">Save and review your meetings whenever you need, with secure access.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>  
+  <section class="productivity-section2">
+    <div class="text-content2">
+      <h2 data-aos="fade-down" data-aos-duration="600" data-aos-delay="100">Boosting Collaboration and Productivity</h2>
+      <p data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
+        We enhance the way teams work together by providing innovative tools that optimize communication, increase efficiency, and streamline processes. With our solutions, every task becomes simpler, allowing teams to focus on what truly matters: achieving their goals faster and more effectively.
+      </p>
+      <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+        <button class="cta-button2">Try it free for 30 days</button>
+      </div>
+    </div>
+    <div class="image-content2">
+      <img src="img/estadisticas.png" alt="Productivity Growth Chart" data-aos="flip-left" data-aos-duration="600" data-aos-delay="400">
+    </div>
+  </section>
+  <section class="productivity-section30">
+    <section class="productivity-section3">
+      <div class="image-content3">
+        <img src="img/equipo.png" alt="Productivity Growth Chart" data-aos="flip-right" data-aos-duration="600" data-aos-delay="400">
+      </div>
+  
+      <div class="text-content3">
+        <h2 data-aos="fade-down" data-aos-duration="600" data-aos-delay="100">Efficient Collaboration for Higher Productivity</h2>
+        <p data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+          We drive collaboration with tools designed to improve communication and optimize every work process. Our technology helps teams coordinate more efficiently, reducing wasted time and boosting productivity. With a more agile workflow, you'll achieve your goals quickly and effectively.
+        </p>
+        <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+          <button class="cta-button3">Try Startco Now!</button>
+        </div>
+      </div>
+    </section>
+  </section>  
+  <section class="testimonial">
+    <div class="testimonial-content">
+      <div class="quote" data-aos="fade-down" data-aos-duration="600" data-aos-delay="100">
+        <span class="quote-icon">❝</span>
+        <p>
+          Project management is the most valuable business resource we've acquired in 2025. <br><br>
+          Its value far exceeds what I paid for it.
+        </p>
+      </div>
+      <div class="testimonial-info" data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
+        <div class="author">
+          <h4>John Smith</h4>
+          <p>CEO</p>
+        </div>
+        <div class="company-logo">
+          <img src="img/payoneer.png" alt="Payoneer Logo">
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-image">
+      <div class="image-container4">
+        <img src="img/camara.png" alt="Testimonial" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+      </div>
+    </div>
+  </section>
+  
+  <section class="news-section">
+    <h2 class="news-title" data-aos="fade-down" data-aos-duration="600" data-aos-delay="100">Latest News</h2>
+    <p class="news-description" data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
+      Stay informed with our latest updates on <br>
+      technology, innovation, and market trends.
+    </p>
+  
+    <div class="news-container">
+      <div class="news-card" data-aos="flip-down" data-aos-duration="600" data-aos-delay="300">
+        <img src="img/carta1.png" alt="News 1" class="news-image">
+        <div class="news-content">
+          <h3>Google Page Experience Update</h3>
+          <div class="news-meta">
+            <img src="img/perfil2.png" alt="User" class="news-icon">
+            <span class="news-author">Cody Fisher</span>
+            <img src="img/calendario.png" alt="Calendar" class="news-icon2">
+            <span class="news-date">08/30/21</span>
+          </div>
+          <p>This is the first text generator on the Internet. It uses a dictionary of over 200 Latin words, combining them with unique structures and phrases to create...</p>
+          <a href="#" class="news-link">Read more <span>→</span></a>
+        </div>
+      </div>
+  
+      <div class="news-card" data-aos="flip-up" data-aos-duration="600" data-aos-delay="400">
+        <img src="img/carta2.png" alt="News 2" class="news-image">
+        <div class="news-content">
+          <h3>Artificial Intelligence is the Future of Work</h3>
+          <div class="news-meta">
+            <img src="img/perfil3.png" alt="User" class="news-icon">
+            <span class="news-author">Ana Torres</span>
+            <img src="img/calendario.png" alt="Calendar" class="news-icon2">
+            <span class="news-date">09/12/21</span>
+          </div>
+          <p>Discover how AI is transforming work processes, optimizing tasks, and boosting productivity across various industries, driving innovation...</p>
+          <a href="#" class="news-link">Read more <span>→</span></a>
+        </div>
+      </div>
+  
+      <div class="news-card" data-aos="flip-down" data-aos-duration="600" data-aos-delay="500">
+        <img src="img/carta3.png" alt="News 3" class="news-image">
+        <div class="news-content">
+          <h3>The Rise of Remote Work in 2025</h3>
+          <div class="news-meta">
+            <img src="img/perfil1.png" alt="User" class="news-icon">
+            <span class="news-author">Luis Méndez</span>
+            <img src="img/calendario.png" alt="Calendar" class="news-icon2">
+            <span class="news-date">10/05/21</span>
+          </div>
+          <p>Remote work has changed the way companies operate. Learn about the challenges and benefits of this new digital era...</p>
+          <a href="#" class="news-link">Read more <span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>  
+    <footer class="footer"> 
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo" data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">
+                    <img src="img/logo.png" alt="Logo Icon">
+                    <span>Daffon</span>
+                </div>
+                <p data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">At Daffon, we offer intuitive tools that enhance productivity and foster efficient collaboration in any environment.</p>
+                <div class="footer-socials" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                <ul class="icon-effect icon-effect-1a">
+                    <li><a href="#" class="icon"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="icon"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="icon"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#" class="icon"><i class="fa fa-pinterest"></i></a></li>
+                </ul>  
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3 data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">RESOURCES</h3>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="400">Download App</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="450">Help Center</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">Productivity</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="550">Methods</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="600">Refer a Friend</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="650">Integrations</a>
+                </div>
+                <div class="footer-column">
+                    <h3 data-aos="fade-down" data-aos-duration="600" data-aos-delay="400">PRODUCT</h3>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">How It Works</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="550">Log In</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="600">Get Tara</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="650">Tasks</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">Management</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="750">Sprints</a>
+                </div>
+                <div class="footer-column">
+                    <h3 data-aos="fade-down" data-aos-duration="600" data-aos-delay="500">DATA</h3>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="600">About Us</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="650">Contracts</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">Blog</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="750">Press</a>
+                    <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-delay="800">Twist</a>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-divider">
+        <p class="footer-copyright">Copyright © 2024 Daffon. All Rights Reserved.</p>
+    </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const features = document.querySelectorAll(".feature1");
+
+        features.forEach(feature => {
+            feature.addEventListener("click", function () {
+                toggleFeature(this, features);
+            });
+        });
+    });
+
+    function toggleFeature(element, allFeatures) {
+        let isActive = element.classList.contains("active");
+
+        // Cierra todas las demás características antes de abrir una nueva
+        allFeatures.forEach(f => f.classList.remove("active"));
+
+        if (!isActive) {
+            element.classList.add("active");
+        }
+    }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
