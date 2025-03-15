@@ -2,6 +2,9 @@
 
 Daffon es un proyecto web con temática de aplicación de videollamadas, asignado por la empresa **DIGITAL BUHO S.A.C** y supervisado por el gerente **Enrique Baca Deyvis Daniel** para el equipo de diseñadores front-end.
 
+## 🌐 Visita el Proyecto en GitHub Pages
+[Visitar Daffon en GitHub Pages](https://siologodr.github.io/Mockup/)
+
 ## 🚀 Objetivo del Proyecto
 Desarrollar una interfaz basada en un **mockup aleatorio** seleccionado individualmente por cada diseñador. En este caso, se ha elegido el diseño de **Daffon**. Se ha mantenido una alta fidelidad al mockup original (90%), con mejoras en la organización, optimización del código y la adición de nuevas funcionalidades.
 
@@ -65,7 +68,9 @@ Daffon/
 ├── index.html
 ├── ingles.html
 ├── css/
+│   └── ...
 ├── img/
+│   └── ...
 └── readme.md
 ```
 
